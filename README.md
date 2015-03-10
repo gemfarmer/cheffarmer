@@ -11,6 +11,16 @@ This is an application to facilitate the connection between Twin Cities farmers 
 * native app compatability: phone gap / cordova.js
 * deployment: heroku/aws/grunt build-control
 
+#### Links
+
+* [Demo Site](https://fathomless-brushlands-3785.herokuapp.com)
+
+* [Codebase](https://github.com/gemfarmer/cheffarmer/tree/master)
+
+* [DB](https://www.mongolab.com/databases/heroku_app34758300/collections/things?saved=1426002857974&f=&s=&q=&pageSize=10&pageNum=0)
+
+* [Deployment Platform](https://dashboard.heroku.com/apps/fathomless-brushlands-3785)
+
 #### Social Media Login integration
 
 `You will need to set environment variables for facebook auth. From `/dist`:
