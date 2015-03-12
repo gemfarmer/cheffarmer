@@ -1,7 +1,11 @@
 'use strict';
 
 angular.module('cheffarmerApp')
-  .controller('MainCtrl', function ($scope, $http) {
+  .controller('MainCtrl', function ($scope, $http, Auth) {
+    $scope.isFarmer = Auth.isFarmer;
+    $scope.isChef = Auth.isChef;
+
+
     $scope.awesomeThings = [];
 
     $http.get('/api/things').success(function(awesomeThings) {

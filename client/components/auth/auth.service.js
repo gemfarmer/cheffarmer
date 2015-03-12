@@ -137,6 +137,24 @@ angular.module('cheffarmerApp')
       },
 
       /**
+       * Check if a user is a farmer
+       *
+       * @return {Boolean}
+       */
+      isFarmer: function() {
+        return currentUser.role === 'farmer';
+      },
+
+      /**
+       * Check if a user is a farmer
+       *
+       * @return {Boolean}
+       */
+      isChef: function() {
+        return currentUser.role === 'chef';
+      },
+
+      /**
        * Get auth token
        */
       getToken: function() {

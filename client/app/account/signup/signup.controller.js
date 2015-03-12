@@ -4,7 +4,11 @@ angular.module('cheffarmerApp')
   .controller('SignupCtrl', function ($scope, Auth, $location, $window) {
     $scope.user = {};
     $scope.errors = {};
+    $scope.roleSelected = false;
 
+    $scope.selectRole = function () {
+      $scope.roleSelected = true;
+    }
     $scope.register = function(form) {
       $scope.submitted = true;
 

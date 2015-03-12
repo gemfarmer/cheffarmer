@@ -10,6 +10,8 @@ angular.module('cheffarmerApp')
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;
     $scope.isAdmin = Auth.isAdmin;
+    $scope.isChef = Auth.isChef;
+    $scope.isFarmer = Auth.isFarmer;
     $scope.getCurrentUser = Auth.getCurrentUser;
 
     $scope.logout = function() {
